@@ -25,7 +25,7 @@ const Index = () => {
         h="100vh"
       >
         <HStack
-          position="fixed"
+          position="absolute"
           top="85%"
           left="50%"
           transform="translate(-50%, -50%)"
