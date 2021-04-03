@@ -1,7 +1,6 @@
-import { Box } from "@chakra-ui/react";
-
-
 import Head from "next/head";
+import { Box, HStack } from "@chakra-ui/react";
+import Socials from "../components/Socials";
 
 const Index = () => {
   return (
@@ -18,6 +17,15 @@ const Index = () => {
         bgSize="contain"
         h="100vh"
       >
+        <HStack
+          position="fixed"
+          top="85%"
+          left="50%"
+          transform="translate(-50%, -50%)"
+          spacing="32px"
+        >
+          <Socials />
+        </HStack>
       </Box>
     </>
   );
